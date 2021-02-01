@@ -23,10 +23,11 @@ def main():
     # 用多进程启动appium服务，然后返回一个进程
     p=multiprocessing.Process(target=start_appium_server)
     p.start()
-    # time.sleep(2)
+    time.sleep(3)
     pytest.main(['-sv', './case/test_douban.py','--alluredir=./reports/douban','--clean-alluredir'])
     # 启动allure服务
     subprocess.call('allure generate ./reports/douban -o ./reports/html/ --clean',shell=True)
+    os.system('taskkill -F -PID node.exe')
     # 等待其他进程
     p.join()
     # 进程退出
