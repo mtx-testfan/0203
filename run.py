@@ -27,7 +27,7 @@ def main():
     pytest.main(['-sv', './case/test_douban.py','--alluredir=./reports/douban','--clean-alluredir'])
     # 启动allure服务
     subprocess.call('allure generate ./reports/douban -o ./reports/html/ --clean',shell=True)
-    os.system('taskkill -F -PID node.exe')
+    os.system('C:\\Windows\\System32\\taskkill.exe -F -PID node.exe')
     # 等待其他进程
     p.join()
     # 进程退出
