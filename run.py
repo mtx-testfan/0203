@@ -9,7 +9,7 @@ import time
 
 import pytest
 def start_appium_server():
-    os.system('appium')
+    os.system(r'C:\Users\suela\AppData\Roaming\npm\appium')
 
 
 def main():
