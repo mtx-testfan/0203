@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "test_douban",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "2263d9863f63fb27",
+        "parentUid" : "8a386e97668251033b55d2699c635236",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612182724256,
+          "stop" : 1612182740061,
+          "duration" : 15805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a386e97668251033b55d2699c635236"
+    } ],
+    "uid" : "7559db31629684e5f31176d189a833ac"
+  } ]
+}

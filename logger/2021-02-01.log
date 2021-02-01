@@ -1,0 +1,17 @@
+2021-02-01 20:14:26,750 INFO [root] [baseApi.py (base_find_element:49] - had find element帐号密码登录,by xpath via value//*[@text='帐号密码登录']
+2021-02-01 20:14:27,941 INFO [root] [baseApi.py (base_find_element:49] - had find element请输入手机号/邮箱,by xpath via value//*[@text='请输入手机号/邮箱']
+2021-02-01 20:14:29,500 INFO [root] [baseApi.py (base_find_element:30] - had find element,by id via valuecom.douban.frodo:id/input_password
+2021-02-01 20:14:30,641 INFO [root] [baseApi.py (base_find_element:30] - had find element登录,by id via valuecom.douban.frodo:id/sign_in_douban
+2021-02-01 20:14:34,199 INFO [root] [baseApi.py (base_find_element:49] - had find element我的,by xpath via value//android.widget.TextView[@text='我的']
+2021-02-01 20:15:57,068 INFO [selenium.webdriver.remote.remote_connection] [remote_connection.py (__init__:117] - Could not connect to port 4723 on host localhost
+2021-02-01 20:15:57,068 INFO [selenium.webdriver.remote.remote_connection] [remote_connection.py (__init__:136] - Could not get IP address for host: localhost
+2021-02-01 20:16:01,084 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:750] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001ADD98B0390>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2021-02-01 20:16:05,092 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:750] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001ADD98B0518>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2021-02-01 20:16:09,103 WARNING [urllib3.connectionpool] [connectionpool.py (urlopen:750] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001ADD98B0710>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2021-02-01 20:31:40,434 INFO [selenium.webdriver.remote.remote_connection] [remote_connection.py (__init__:117] - Could not connect to port 4723 on host localhost
+2021-02-01 20:31:40,434 INFO [selenium.webdriver.remote.remote_connection] [remote_connection.py (__init__:136] - Could not get IP address for host: localhost
+2021-02-01 20:32:10,998 INFO [root] [baseApi.py (base_find_element:49] - had find element帐号密码登录,by xpath via value//*[@text='帐号密码登录']
+2021-02-01 20:32:12,330 INFO [root] [baseApi.py (base_find_element:49] - had find element请输入手机号/邮箱,by xpath via value//*[@text='请输入手机号/邮箱']
+2021-02-01 20:32:13,972 INFO [root] [baseApi.py (base_find_element:30] - had find element,by id via valuecom.douban.frodo:id/input_password
+2021-02-01 20:32:15,122 INFO [root] [baseApi.py (base_find_element:30] - had find element登录,by id via valuecom.douban.frodo:id/sign_in_douban
+2021-02-01 20:32:18,537 INFO [root] [baseApi.py (base_find_element:49] - had find element我的,by xpath via value//android.widget.TextView[@text='我的']

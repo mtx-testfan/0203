@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case.test_douban",
+    "children" : [ {
+      "name" : "test_login",
+      "uid" : "2263d9863f63fb27",
+      "parentUid" : "0a73b6ee619dfac1b9ab371193fb0c58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612182724256,
+        "stop" : 1612182740061,
+        "duration" : 15805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "case.test_douban"
+  } ]
+}
